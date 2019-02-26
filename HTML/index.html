@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>静态页面</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="swiper.css">
+  <link rel="stylesheet" href="css/iconfont.css">
+</head>
+<body>
+  <header>
+    <span><img src="img/search1.png" alt=""></span>
+    <nav>
+      <a href="#">推荐</a>
+      <a href="#">快讯</a>
+      <a href="#">订阅</a>
+      <a href="#">易邦号</a>
+      <a href="#">新闻</a>
+      <a href="#">体育</a>
+      <a href="#">科技</a>
+      <a href="#">更多</a>
+    </nav>
+    <span><img src="img/search2.png" alt=""></span>
+  </header>
+<div class="box">
+  <section>
+    <div class="swiper-container swiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide a"><a href=""><img src="img/sw1.jpg" alt=""></a></div>
+            <div class="swiper-slide b"><a href=""><img src="img/sw2.jpg" alt=""></a></div>
+            <div class="swiper-slide c"><a href=""><img src="img/sw3.jpg" alt=""></a></div>
+        </div>
+    </div>
+  </section>
+  <article>
+    <dl>
+        <dt>
+          <a href=""><img src="img/newsflash.png" alt=""></a>
+        </dt>
+
+        <dd>
+          <div class="swiper-container swiper2">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide a">风口上的社区团购还能火多久</div>
+                  <div class="swiper-slide b">来伊份“搭伙”美团点评</div>
+                  <div class="swiper-slide c">安佑集团入股农信互联</div>
+              </div>
+          </div>
+        </dd>
+
+    </dl>
+  </article>
+  <dl class="newslist">
+    <dt>
+      <p>印尼：电商卖家需与政府共享用户数据 且必须纳税</p>
+      <div class="btn">置顶</div>
+    </dt>
+    <dd>
+      <img src="img/news1.png" alt="">
+    </dd>
+  </dl>
+
+  <dl class="newslist">
+    <dt>
+      <p>海关重要发布：2018年中国外贸进出口总值达30年最高...</p>
+      <span>20小时以前</span>
+    </dt>
+    <dd>
+      <img src="img/news2.png" alt="">
+    </dd>
+  </dl>
+
+  <dl class="hoodapp">
+    <dt><img src="img/banner.png" alt=""></dt>
+    <dd>
+      <span class="btn">投票 </span>   218参与
+    </dd>
+  </dl>
+
+  <dl class="newslist">
+    <dt>
+      <p>印尼：电商卖家需与政府共享用户数据 且必须纳税</p>
+      <div class="btn">置顶</div>
+    </dt>
+    <dd>
+      <img src="img/news1.png" alt="">
+    </dd>
+  </dl>
+
+
+  <dl class="newslist">
+    <dt>
+      <p>印尼：电商卖家需与政府共享用户数据 且必须纳税</p>
+      <div class="btn">置顶</div>
+    </dt>
+    <dd>
+      <img src="img/news1.png" alt="">
+    </dd>
+  </dl>
+
+  <dl class="newslist">
+    <dt>
+      <p>印尼：电商卖家需与政府共享用户数据 且必须纳税</p>
+      <div class="btn">置顶</div>
+    </dt>
+    <dd>
+      <img src="img/news1.png" alt="">
+    </dd>
+  </dl>
+
+
+</div>
+
+  <!-- footer-->
+  <footer>
+    <a href="index.html"><img src="img/footer1.png" alt="">头条</a>
+    <a href="meeting.html"><img src="img/footer2.png" alt="">会议</a>
+    <a href="server.html"><img src="img/footer3.png" alt="">找服务</a>
+    <a href="find.html"><img src="img/footer4.png" alt="">发现</a>
+    <a href="mine.html"><img src="img/footer5.png" alt="">我的</a>
+  </footer>
+</body>
+</html>
+<script src="swiper.js"></script>
+<script>
+  window.onload=function(){
+    var mySwiper = new Swiper ('.swiper1', {
+      loop : true,
+      autoplay:true,
+      speed:500,
+      autoplayDisableOnInteraction: false,
+    })
+    var mySwiper1 = new Swiper ('.swiper2', {
+      loop : true,
+      autoplay:true,
+      direction:"vertical",
+      autoplayDisableOnInteraction: false,
+    })
+  }
+</script>

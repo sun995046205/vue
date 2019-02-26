@@ -1,0 +1,55 @@
+{
+  "seller": {
+      "footer":[
+        {
+          "id": "头条",
+          "img": "../assets/img/footer1.png"
+          "name": "/"
+        },
+        {
+          "id": "会议",
+          "img": "../assets/img/footer2.png"
+          "name": "/meeting"
+        },
+        {
+          "id": "找服务",
+          "img": "../assets/img/footer3.png"
+          "name": "/server"
+        },
+        {
+          "id": "发现",
+          "img": "../assets/img/footer4.png"
+          "name": "/find"
+        },
+        {
+          "id": "我的",
+          "img": "../assets/img/footer5.png"
+          "name": "/mine"
+        }
+      ],
+      "indexheader":["推荐", "快讯", "订阅", "易邦号", "新闻","体育", "科技", "更多"].
+      "hoodapp": [
+        {
+          "id": "投票",
+          "img": "../../../assets/img/banner.png",
+          "name": "218参与"
+        }
+      ],
+    "newsinfo": [
+      {
+        "id": "海关重要发布：2018年中国外贸进出口总值达30年最高...",
+        "img": "../../../assets/img/news2.png",
+        "name": "20小时以前"
+      }
+    ],
+    "newslist": [
+      {
+        "id": "印尼：电商卖家需与政府共享用户数据 且必须纳税",
+        "img": "../../../assets/img/news1.png",
+        "name": "置顶"
+      }
+    ]
+
+
+  }
+}
